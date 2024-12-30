@@ -1,0 +1,67 @@
+/* General styles */
+:host {
+    display: block;
+    padding: 16px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #4CAF50; /* Green color for the header text */
+    text-align: center; /* Center align the header */
+    padding: 10px;
+    border: 2px solid #4CAF50; /* Border color matching the text color */
+    border-radius: 8px;
+    background-color: #F1F8E9; /* Light green background color */
+  }
+  
+  mat-form-field {
+    margin-right: 16px;
+    width: 200px;
+  }
+  
+  button {
+    margin-top: 16px;
+    margin-right: 8px;
+  }
+  
+  /* Table styles */
+  mat-table {
+    width: 100%;
+    margin-top: 16px;
+  }
+  
+  .mat-header-cell, .mat-cell {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .mat-header-cell {
+    font-weight: bold;
+  }
+  
+  .mat-cell {
+    font-size: 14px;
+  }
+  
+  /* Dialog styles */
+  .mat-dialog-container {
+    padding: 16px;
+  }
+  
+  mat-dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+  }
+  
+  mat-form-field {
+    display: block;
+    width: 100%;
+  }
+  
+  button[mat-dialog-close] {
+    margin-right: 8px;
+  }
+  
